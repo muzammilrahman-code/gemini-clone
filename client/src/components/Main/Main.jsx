@@ -43,7 +43,7 @@ const Main = () => {
   setPrompt('');
 
   try {
-    const res = await fetch('http://localhost:5000/api/chat', {
+    const res = await fetch('gemini-clone-production.up.railway.app', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: userMessage })
