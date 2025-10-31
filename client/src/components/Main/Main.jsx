@@ -111,7 +111,7 @@ const SkeletonLoader = () => (
     <div className="relative bg-white h-full flex flex-col transition-all duration-300">
       {/* Top Bar */}
       <div className="flex items-center justify-between px-6 pt-4">
-        <p className='text-xl'>Gemini</p>
+        <p className='text-xl'>ADHD Tutor ChatApp</p>
         <img src={assets.user_icon1} alt="User" className="w-8 h-8 rounded-full cursor-pointer" />
       </div>
 
@@ -121,7 +121,7 @@ const SkeletonLoader = () => (
           <div className="flex flex-col items-center justify-center text-center h-full">
             <h1 className="mt-24 sm:mt-0 text-4xl md:text-5xl font-bold">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">Hello,</span>{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-red-500">Dev.</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-red-500">Students.</span>
             </h1>
             <p className="text-2xl md:text-3xl font-medium text-gray-700 mt-2">
               How can I help you today?
