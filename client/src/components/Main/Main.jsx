@@ -182,7 +182,7 @@ const SkeletonLoader = () => (
 
       {/* Footer */}
       <p className="text-center text-sm text-gray-500 pb-3">
-        Gemini may display inaccurate info, including about people, so double-check its responses.
+        Tutor ChatApp may display inaccurate info, including about people, so double-check its responses.
       </p>
     </div>
   );
