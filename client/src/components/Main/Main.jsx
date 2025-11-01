@@ -75,7 +75,7 @@ words.forEach((letter, index) => {
     setChatHistory(prev => {
       const updated = [...prev];
       // Replace the last bot message progressively
-      updated[updated.length - 1] = { sender: 'ChatBot:', message: displayText };
+      updated[updated.length - 1] = { sender: 'ChatBot', message: displayText };
       return updated;
     });
   }, 20 * index); // 20ms per letter
